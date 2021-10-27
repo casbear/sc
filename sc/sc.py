@@ -69,7 +69,3 @@ for i in connectQueue:
 
     
 connection.commit()
-
-cur.execute('SELECT * FROM ARTICLE')
-result = cur.fetchall()
-print(result)
