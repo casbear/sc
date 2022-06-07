@@ -8,7 +8,7 @@ import urllib.parse
 
 #===============================================================================DATABASE SETUP
 
-connection = sqlite3.connect('C:/Users/kacpi/OneDrive/Dokumenty/lekcje/priv/sc/wikipedia.db')
+connection = sqlite3.connect('wikipedia.db')
 cur = connection.cursor()
 
 command1 = """CREATE TABLE IF NOT EXISTS
